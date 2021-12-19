@@ -1,5 +1,5 @@
 // Requires mathjs
-import { divide } from file:///home/migraine/Bureau/modjs1.1.3/Math.js
+import { divide } from "../Math.js"
 function returntwo(a, b, c) {
 if (b = "x"){
   return a * c
@@ -8,7 +8,7 @@ if (b = "p") {
   return a + c
 }
 if (b = "d") {
-  return math.divide(a, c)
+  return Math.divide(a, c)
 }
 }
 // test
